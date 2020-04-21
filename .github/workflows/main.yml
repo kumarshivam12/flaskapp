@@ -7,7 +7,7 @@ name: CI-CD-Pipeline-AWS
 env:
   EB-BUCKET-NAME: "buck-flask"
   APPLICATION-NAME: "flaskapp"
-  EB-ENV-NAME: "Flaskapp-env"
+  EB-ENV-NAME: "Flaskapp-env-1"
   DEPLOY-PACKAGE-NAME: "flask-app-${{ github.sha }}.zip"
   AWS-REGION: "us-east-1"
 on:
