@@ -6,8 +6,8 @@ name: CI-CD-Pipeline-AWS
 # events but only for the master branch
 env:
   EB-BUCKET-NAME: "buck-flask"
-  APPLICATION-NAME: "webserver"
-  EB-ENV-NAME: "Webserver-env"
+  APPLICATION-NAME: "sort"
+  EB-ENV-NAME: "Sort-env"
   DEPLOY-PACKAGE-NAME: "flask-app-${{ github.sha }}.zip"
   AWS-REGION: "us-east-1"
 on:
