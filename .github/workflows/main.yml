@@ -22,7 +22,7 @@ jobs:
       - name: clone-our-repo
         uses: actions/checkout@v2
       - name: create zip file
-        run: zip -r ${{ env.DEPLOY-PACKAGE-NAME }} ./src -x *.git*
+        run: zip -r ${{ env.DEPLOY-PACKAGE-NAME }} ./ -x *.git*
       - name: configure aws auth
         uses: aws-actions/configure-aws-credentials@v1
         with:
