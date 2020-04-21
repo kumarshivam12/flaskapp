@@ -14,4 +14,5 @@ def index():
     return "Hello World from Flask Hello Page."
 
 if __name__ == "__main__":
-    application.run(host='0.0.0.0', port=80,debug=True)
+    application.debug=True
+    application.run()
