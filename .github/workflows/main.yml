@@ -8,7 +8,7 @@ env:
   EB-BUCKET-NAME: "buck-flask"
   APPLICATION-NAME: "flaskapp"
   EB-ENV-NAME: "Flaskapp-env"
-  DEPLOY-PACKAGE-NAME: "flask-app-${{ github-sha }}.zip"
+  DEPLOY-PACKAGE-NAME: "flask-app-${{ github.sha }}.zip"
   AWS-REGION: "us-east-1"
 on:
   push:
