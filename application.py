@@ -11,7 +11,7 @@ def root():
 
 @application.route("/hello")
 def index():
-    return "Hello World from Flask Hello Page."
+    return "Hello World from COE Team."
 
 if __name__ == "__main__":
     application.debug=True
